@@ -1,0 +1,8 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: dummy-l4t-packages
+Replaces: nvidia-l4t-wayland(= 32.4.2-20200408182156), nvidia-l4t-x11(= 32.4.2-20200408182156), libxext6, libegl1
+Provides: nvidia-l4t-wayland(= 32.4.2-20200408182156), nvidia-l4t-x11(= 32.4.2-20200408182156), libxext6, libegl1
+Description: Dummy L4T dependencies for a headless setup

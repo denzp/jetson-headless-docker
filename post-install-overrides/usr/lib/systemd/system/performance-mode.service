@@ -1,0 +1,12 @@
+[Unit]
+Description=Set performance mode
+After=nv.service
+Requires=nv.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/performance-mode
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
